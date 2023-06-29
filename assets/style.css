@@ -14,6 +14,15 @@ article {
     overflow-x: auto;
 }
 
+#logo {
+    /* height: 100%; */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    /* overflow: none; */
+    position: relative;
+    left: 50%;
+}
+
   header {
     color: whitesmoke;
     height: 100vh;
@@ -60,7 +69,7 @@ transition: 1s opacity;
   .wrapper {
     display: grid;
     grid-template-columns: 1fr .8fr .8fr;
-    min-height: 80vh;
+    height: 100vh;
   }
 
   aside {
@@ -105,15 +114,35 @@ transition: 1s opacity;
       grid-template-columns: 1fr;
     }
     article {
-        font-size: small;
+        /* font-size: small; */
         max-width: 100%;
         overflow-x: hidden;
+      }
+      #logo {
+        position: relative;
+        left:0%;
+        height: 400px;
+          width: 400px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr .8fr;
+        height: 100vh;
       }
   }
 
   @media (max-width: 480px) {
     article {
-      font-size: smaller;
+      /* font-size: smaller; */
+    }
+    #logo {
+       position: relative;
+       left:0%;
+       height: 300px;
+       width: 300px;
+        overflow: none;
+       
+    
     }
   }
 
