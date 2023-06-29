@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 65.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+article {
+    /* readable text for both mobile and desktop */
+    font-size: medium;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 500em;
+    overflow-x: auto;
+}
+
+  header {
+    color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.75rem;
+    padding-top: 5vh;
+  }
+
+  #myVideo{
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background-size: cover;
+transition: 1s opacity;
+}
+
+#path{
+    height: 80vh;
+    margin-bottom: 5vh;
+}
+
+#contact {
+    height: 10vh;
+} 
+
+  .emoji {
+    /* put all the images in the middle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr .8fr .8fr;
+    min-height: 80vh;
+  }
+
+  aside {
+    background-color: whitesmoke;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 1em;
+    grid-auto-rows: 50vh;
+  }
+
+  main > div {
+    background-color: rgb(172, 255, 47);
+    padding: 0.5em;
+    font-size: 1.75rem;
+    /* padding-top: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .manifesto {
+    padding: 0.5em;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 770px) {
+    /* sidebar {
+      display: none;
+    } */
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+    article {
+        font-size: small;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+  }
+
+  @media (max-width: 480px) {
+    article {
+      font-size: smaller;
+    }
+  }
+
+  footer {
+    background-color: rgb(172, 255, 47);
+    color: black;
+    height: 10vh;
+    font-size: 1.75rem;
+    padding: 3vh;
+    border-top: 10px solid whitesmoke;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 300px solid whitesmoke;
+    border-right: 300px solid whitesmoke;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
