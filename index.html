@@ -19,6 +19,7 @@
       </div>
     </header>
     <div class="wrapper">
+      <div></div>
       <main>
         <div><h3>#veryjazzed</h3></div>
         
@@ -52,17 +53,10 @@
             height="100"
           />
           <button>
-            <a href="https://veryjazzed.bandcamp.com/">listen rn</a>
+            <a href="https://veryjazzed.bandcamp.com/">LISTEN RN</a>
           </button>
         </article>
-        <article id="logo">
-            <img
-              src="./assets/logo/VJ-logo-stamp.png"
-              alt="emoji1"
-              width="580"
-              height="580"
-            />
-          </article>
+        
 
         <article>
           <img
@@ -132,8 +126,8 @@
 
         <article #id="contact">
             
-          <h1>LMK</h1>
-          <form onsubmit="sendEmail(event)">
+          <form 
+          >
             <label for="name">Name:</label>
             <input type="text" id="name" required />
             <br />
@@ -143,20 +137,39 @@
             <label for="message">Message:</label>
             <textarea id="message" required></textarea>
             <br />
-            <input type="submit" value="Submit" />
+            <button type="submit" value="LMK" > LMK
+          </button>
           </form>
         </article>
        
+        <article id="logo">
+          <img
+            src="./assets/logo/VJ-logo-stamp.png"
+            alt="stamped logo on textured paper"
+            width="400"
+            height="300"
+          />
+        </article>
        
 
-        <div class="release">Release <br> Card</div>
         
+        
+        <article>
+      <section id="card-container"></section>
+
+        </article>
         <div>
-          <h3 class="logo-text"><span>© Gradient Since 2013 </span></h3>
+          <h3 class="gradient-since"><span>© Gradient Since 2013 </span></h3>
+          
         </div>
       </main>
+   
+     
+        <br>
+ 
     </div>
-    <script src="https://cdn.emailjs.com/sdk/2.4.1/email.min.js"></script>
-    <script src="./assets/script.js"></script>
+    <!-- <script src="https://cdn.emailjs.com/sdk/2.4.1/email.min.js"></script> -->
+    <script src="./assets/js/script.js"></script>
+    
   </body>
 </html>

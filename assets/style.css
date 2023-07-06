@@ -1,162 +1,208 @@
 body {
-    margin: 0;
-    text-align: center;
-    font-size: 65.5%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  text-align: center;
+  font-size: 65.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(172, 255, 47);
+  width: 100%;
+  height: 10vh;
+  border-style: inset;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-kerning: auto;
+  color: black;
+}
+
+button:hover {
+  color: rgb(255, 0, 238); 
+}
+
+button:active,
+button:focus {
+  color: rgb(0, 242, 255); 
+}
+
+aside {
+  background-color: whitesmoke;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 article {
-    /* readable text for both mobile and desktop */
-    font-size: medium;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 500em;
-    overflow-x: auto;
+  font-size: medium;
+  line-height: 1.5;
+  margin: 0 auto;
+  overflow-x: auto;
+  min-height: min-content;
+  height: fit-content;
 }
 
-#logo {
-    /* height: 100%; */
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    /* overflow: none; */
-    position: relative;
-    left: 50%;
-}
-
-  header {
-    color: whitesmoke;
-    height: 100vh;
-    width: 100vw;
-    font-size: 1.75rem;
-    padding-top: 5vh;
-  }
-
-  #myVideo{
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background-size: cover;
-transition: 1s opacity;
-}
-
-#path{
-    height: 80vh;
-    margin-bottom: 5vh;
+img {
+  margin: 0 auto;
+  overflow-x: auto;
+  min-height: min-content;
+  height: fit-content;
 }
 
 #contact {
-    height: 10vh;
-} 
+  height: 10vh;
+}
 
-  .emoji {
-    /* put all the images in the middle */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
+header {
+  color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.75rem;
+  padding-top: 5vh;
+}
+
+main {
+  background-color: white;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 1em;
+}
+
+main > div {
+  background-color: rgb(172, 255, 47);
+  padding: 0.5em;
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manifesto {
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+#myVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+#path {
+  height: 80vh;
+  margin-bottom: 5vh;
+}
+
+#logo {
+  max-height: 95%;
+  max-width: 95%;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.release-card {
+  background-color: rgb(172, 255, 47);
+  color: rgb(0, 0, 0);
+  padding: .5em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  min-height: min-content;
+  min-width: min-content;
+  height: fit-content;
+  width: 95%;
+}
+
+.release-card h1,
+.release-card h2,
+.release-card h3,
+.release-card h4,
+.release-card p, 
+img {
+  margin: auto;
+  position: relative;
+  /* right: 3% */
+  /* width: 50%; */
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: .8fr 1.4fr .8fr;
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+ 
+
+  #logo {
+    position: relative;
+    left: 0%;
+  
   }
-
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr .8fr .8fr;
-    height: 100vh;
+  
+  #release-card {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10em;
+    margin-bottom: 1em;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    display: none;
   }
+}
 
-  aside {
-    background-color: whitesmoke;
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main {
-    background-color: white;
+@media (max-width: 480px) {
+  
+  
+  #release-card {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    grid-gap: 1em;
-    grid-auto-rows: 50vh;
+    margin-bottom: 1em;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    display: none;
   }
+}
 
-  main > div {
-    background-color: rgb(172, 255, 47);
-    padding: 0.5em;
-    font-size: 1.75rem;
-    /* padding-top: 10vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-  }
-
-  .manifesto {
-    padding: 0.5em;
-    font-size: 1rem;
-  }
-
-  @media (max-width: 770px) {
-    /* sidebar {
-      display: none;
-    } */
-    .wrapper {
-      grid-template-columns: 1fr;
-    }
-    article {
-        /* font-size: small; */
-        max-width: 100%;
-        overflow-x: hidden;
-      }
-      #logo {
-        position: relative;
-        left:0%;
-        height: 400px;
-          width: 400px;
-    }
-    .wrapper {
-        display: grid;
-        grid-template-columns: 1fr .8fr;
-        height: 100vh;
-      }
-  }
-
-  @media (max-width: 480px) {
-    article {
-      /* font-size: smaller; */
-    }
-    #logo {
-       position: relative;
-       left:0%;
-       height: 300px;
-       width: 300px;
-        overflow: none;
-       
-    
-    }
-  }
-
-  footer {
-    background-color: rgb(172, 255, 47);
-    color: black;
-    height: 10vh;
-    font-size: 1.75rem;
-    padding: 3vh;
-    border-top: 10px solid whitesmoke;
-    border-bottom: 10px solid whitesmoke;
-    border-left: 300px solid whitesmoke;
-    border-right: 300px solid whitesmoke;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-  }
+footer {
+  background-color: rgb(172, 255, 47);
+  color: black;
+  height: 10vh;
+  font-size: 1.75rem;
+  padding: 3vh;
+  border-top: 10px solid whitesmoke;
+  border-bottom: 10px solid whitesmoke;
+  border-left: 300px solid whitesmoke;
+  border-right: 300px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}

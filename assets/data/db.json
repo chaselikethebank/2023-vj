@@ -1,0 +1,625 @@
+
+{
+  "releases": [
+  {
+    "CatalogNum": "VJ001",
+    "Release Date": "05.06.2016",
+    "Artist": "Children of Pop",
+    "Title": "Fiesta / Drift",
+    "Format": "LP"
+  },
+  {
+    "CatalogNum": "VJ00?",
+    "Release Date": "06.24.2016",
+    "Artist": "TBD",
+    "Title": "Josiah Gabriel",
+    "Format": "BIG FACE",
+    "EP - Digital"
+  },
+  {
+    "CatalogNum": "TOUR",
+    "Release Date": "June",
+    "Artist": "Children of Pop",
+    "Title": "Summer tour",
+    "Format": "East coast - Select West coast"
+  },
+  {
+    "CatalogNum": "VJ006",
+    "Release Date": "05.06.2016",
+    "Artist": "Children of Pop",
+    "Title": "What Does 69 Mean?",
+    "Format": "LP"
+  },
+  {
+    "CatalogNum": "VJ008",
+    "Release Date": "06.03.2016",
+    "Artist": "Josiah Gabriel",
+    "Title": "EP$",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ009",
+    "Release Date": "TBD",
+    "Artist": "Pastel",
+    "Title": "Bone-Weary EP",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ010",
+    "Release Date": "11.11.2016",
+    "Artist": "Jerk",
+    "Title": "Jerk",
+    "Format": "LP"
+  },
+  {
+    "CatalogNum": "VJ012",
+    "Release Date": "11.04.2016",
+    "Artist": "Deep Cuts",
+    "Title": "Take Me Back",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ013",
+    "Release Date": "12.16.2016",
+    "Artist": "Love n Lerrone",
+    "Title": "Vybe Right",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ014",
+    "Release Date": "02.10.2017",
+    "Artist": "Love n Lerrone",
+    "Title": "U Don't Care",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ015",
+    "Release Date": "3.03",
+    "Artist": "Love n Lerrone",
+    "Title": "BaBae",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ016",
+    "Release Date": "Nov 11th",
+    "Artist": "Deep Cuts - Love n Lerrone / children of pop / anitra / a dude who played guitar in neon indian",
+    "Title": "Take Me Back Remixes",
+    "Format": "Remix"
+  },
+  {
+    "CatalogNum": "VJ017",
+    "Release Date": "June 16th",
+    "Artist": "Jerk",
+    "Title": "Socotra / War",
+    "Format": "Single - Digital"
+  },
+  {
+    "CatalogNum": "VJ019",
+    "Release Date": "Oct 13th",
+    "Artist": "VVELLS",
+    "Title": "Island of Me",
+    "Format": "EP - Lathe 10'"
+  },
+  {
+    "CatalogNum": "VJ020",
+    "Release Date": "Sept 29th",
+    "Artist": "VVELLS",
+    "Title": "Island of Me",
+    "Format": "Single - Digital"
+  },
+  {
+    "CatalogNum": "VJ021",
+    "Release Date": "Aug 4th",
+    "Artist": "Get A Life",
+    "Title": "What you deserve / 2 plus 2 equals 5",
+    "Format": "7''"
+  },
+  {
+    "CatalogNum": "VJ022",
+    "Release Date": "October 6th",
+    "Artist": "Flossed in Paradise",
+    "Title": "Hate EP",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ023",
+    "Release Date": "October 20th",
+    "Artist": "Deep Cuts",
+    "Title": "Endlessly Refreshing",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ025",
+    "Release Date": "Aug 18th",
+    "Artist": "VVELLS",
+    "Title": "Green Lights",
+    "Format": "Single - Digital"
+  },
+  {
+    "CatalogNum": "VJ026",
+    "Release Date": "June 16th",
+    "Artist": "Children of Pop",
+    "Title": "Poids / Etude en Cours",
+    "Format": "Single - 7'' Square"
+  },
+  {
+    "CatalogNum": "VJ028",
+    "Release Date": "08.25.2017",
+    "Artist": "Pastel",
+    "Title": "absent, just dust",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ029",
+    "Release Date": "Jan 12, 2018",
+    "Artist": "Narrow Head",
+    "Title": "Bulma",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ031",
+    "Release Date": "02.14.2018",
+    "Artist": "Pastel",
+    "Title": "Close",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ033",
+    "Release Date": "2.23",
+    "Artist": "Guess Genes",
+    "Title": "Lilly Vine",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ035",
+    "Release Date": "4.21",
+    "Artist": "Guess Genes",
+    "Title": "Guess Genes",
+    "Format": "Tape - Full length"
+  },
+  {
+    "CatalogNum": "VJ036",
+    "Release Date": "3.9",
+    "Artist": "Tee Lerrone",
+    "Title": "I Digress",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ037",
+    "Release Date": "04.13.2018",
+    "Artist": "Guess Genes",
+    "Title": "Bones on the Beach",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ038",
+    "Release Date": "8.10.2018",
+    "Artist": "Caicos",
+    "Title": "Promis Lands",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ039",
+    "Release Date": "04.30.2018",
+    "Artist": "Two Meters",
+    "Title": "Left Behind",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ040",
+    "Release Date": "05.25.2018",
+    "Artist": "Two Meters",
+    "Title": "Captive Audience",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ041",
+    "Release Date": "06.15.2018",
+    "Artist": "Two Meters",
+    "Title": "Two Meters",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ042",
+    "Release Date": "October",
+    "Artist": "Get A Life",
+    "Title": "get a job",
+    "Format": "single"
+  },
+  {
+    "CatalogNum": "VJ043",
+    "Release Date": "TBD",
+    "Artist": "MiddleChild",
+    "Title": "Daisy",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ044",
+    "Release Date": "06.08.2018",
+    "Artist": "Standard Legal",
+    "Title": "Mercury",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ045",
+    "Release Date": "07.06.2018",
+    "Artist": "Aubrey Haddard",
+    "Title": "Blue Part",
+    "Format": "LP"
+  },
+  {
+    "CatalogNum": "VJ047",
+    "Release Date": "08.03.2018",
+    "Artist": "Tee Vee",
+    "Title": "Dreaming",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ049",
+    "Release Date": "09.07.2018",
+    "Artist": "BjORDAN",
+    "Title": "Bad Boy Sad Boy",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ050",
+    "Release Date": "09.07.2018",
+    "Artist": "IEVA",
+    "Title": "30 Nights",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ051",
+    "Release Date": "02.08.2019",
+    "Artist": "Get A Life",
+    "Title": "Our Band Could Be",
+    "Format": "LP"
+  },
+  {
+    "CatalogNum": "VJ052",
+    "Release Date": "05.31.2019",
+    "Artist": "Caicos",
+    "Title": "Dream Machine",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ053",
+    "Release Date": "02.01.2019",
+    "Artist": "IEVA",
+    "Title": "Rings",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ054",
+    "Release Date": "02.22.2019",
+    "Artist": "Caicos",
+    "Title": "Genesis",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ055",
+    "Release Date": "04.05.2019",
+    "Artist": "Caicos",
+    "Title": "Washed Up",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ056",
+    "Release Date": "04.26.2019",
+    "Artist": "Caicos",
+    "Title": "Long Term Guests",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ057",
+    "Release Date": "01.16.2019",
+    "Artist": "Get A Life",
+    "Title": "2050",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ058",
+    "Release Date": "03.08.2019",
+    "Artist": "Standard Legal",
+    "Title": "Until the Streets Run Dry Remix",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ059",
+    "Release Date": "05.17.2019",
+    "Artist": "Two Meters",
+    "Title": "The Blue Jay EP",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ060",
+    "Release Date": "04.19.2019",
+    "Artist": "Two Meters",
+    "Title": "Ground",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ061",
+    "Release Date": "05.10.2019",
+    "Artist": "Tee Lerrone",
+    "Title": "I Turn Nothing into",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ062",
+    "Artist": "LIMB",
+    "Title": "Men Of Gold Chain",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ063",
+    "Release Date": "5.24.2019",
+    "Artist": "Mantra Love",
+    "Title": "Another One",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ063",
+    "Artist": "Mantra Love",
+    "Title": "XO",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ064",
+    "Artist": "Mantra Love",
+    "Title": "U Called?",
+    "Format": "EP"
+  },
+  {
+    "CatalogNum": "VJ066",
+    "Release Date": "October 20th",
+    "Artist": "LIMB",
+    "Title": "Men of Gold Chain",
+    "Format": "Mini Album - Lathe? USB?"
+  },
+  {
+    "CatalogNum": "VJ066",
+    "Release Date": "05.27.2019",
+    "Artist": "LIMB",
+    "Title": "Black Cowboy, (Shuffle Repeat Enjoy)",
+    "Format": "Remix/Shuffle"
+  },
+  {
+    "CatalogNum": "VJ067",
+    "Release Date": "07.19.2019",
+    "Artist": "Mantra Love",
+    "Title": "Idc",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ068",
+    "Release Date": "07.26.2019",
+    "Artist": "Mantra Love",
+    "Title": "Trying To Relax",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ069",
+    "Release Date": "11.30.2019",
+    "Artist": "LIMB",
+    "Title": "throw it all on me (Shuffle Repeat Enjoy)",
+    "Format": "Remix/Shuffle"
+  },
+  {
+    "CatalogNum": "VJ070",
+    "Release Date": "7.12.2019",
+    "Artist": "ODAE",
+    "Title": "Cascade",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ071",
+    "Release Date": "8.09.2019",
+    "Artist": "ODAE",
+    "Title": "Ataraxic",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ072",
+    "Release Date": "09.05.2019",
+    "Artist": "Pastel",
+    "Title": "Moon Landing",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ073",
+    "Release Date": "09.07.2019",
+    "Artist": "Two Meters",
+    "Title": "The Nightmare // Bike Ride",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ074",
+    "Release Date": "09.26.2019",
+    "Artist": "Juan Correa",
+    "Title": "Providencia",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ075",
+    "Release Date": "10.29.2019",
+    "Artist": "Emme",
+    "Title": "Superfluid",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ076",
+    "Release Date": "11.15.2019",
+    "Artist": "Emme",
+    "Title": "Wake",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ077",
+    "Release Date": "11.22.2019",
+    "Artist": "Emme",
+    "Title": "Timelapse",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ078",
+    "Release Date": "11.30.2019",
+    "Artist": "LIMB",
+    "Title": "Arms Dealer, (Shuffle Repeat Enjoy)",
+    "Format": "Remix/Shuffle"
+  },
+  {
+    "CatalogNum": "VJ079",
+    "Release Date": "11.30.2019",
+    "Artist": "LIMB",
+    "Title": "spend time with me. (Shuffle Repeat Enjoy)",
+    "Format": "Remix/Shuffle"
+  },
+  {
+    "CatalogNum": "VJ080",
+    "Release Date": "1.24.2020",
+    "Artist": "Mantra Love",
+    "Title": "Ben Dover",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ081",
+    "Release Date": "2020",
+    "Artist": "Mantra Love",
+    "Title": "Sly Dog",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ082",
+    "Release Date": "5.1.2020",
+    "Artist": "Get a Life",
+    "Title": "Mono Again I",
+    "Format": "Album (bandcamp) / Single (DSP)"
+  },
+  {
+    "CatalogNum": "VJ083",
+    "Release Date": "6.5.2020",
+    "Artist": "Daddy's Beemer",
+    "Title": "Denmark",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ084",
+    "Release Date": "6.5.2020",
+    "Artist": "Why Dogs Why",
+    "Title": "Quicksand",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ085",
+    "Release Date": "TBD",
+    "Artist": "Why Dogs Why",
+    "Title": "",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ086",
+    "Release Date": "TBD",
+    "Artist": "Why Dogs Why",
+    "Title": "Freak",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ087",
+    "Release Date": "TBD",
+    "Artist": "Why Dogs Why",
+    "Title": "Dress Well Enough",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ088",
+    "Release Date": "2.14.2020",
+    "Artist": "Daddy's Beemer",
+    "Title": "Dancer",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ089",
+    "Release Date": "2.28.2020",
+    "Artist": "Daddy's Beemer",
+    "Title": "Boxes",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ090",
+    "Release Date": "3.13.2020",
+    "Artist": "Daddy's Beemer",
+    "Title": "Best Not to Ask You Why",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ091",
+    "Release Date": "6.10.2020",
+    "Artist": "Daddy's Beemer",
+    "Title": "Amethyst",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ092",
+    "Release Date": "2020",
+    "Artist": "Yalc123",
+    "Title": "Yalc Nitsua Mailliw",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ093",
+    "Release Date": "2020",
+    "Artist": "Yalc123",
+    "Title": "Been Done Gone",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ094",
+    "Release Date": "2020",
+    "Artist": "Marley Moon",
+    "Title": "All My Friends",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ095",
+    "Release Date": "12.02.2020",
+    "Artist": "ODAE",
+    "Title": "Pace Like I Do / Fridge Closing",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ096",
+    "Release Date": "2020",
+    "Artist": "",
+    "Title": "",
+    "Format": ""
+  },
+  {
+    "CatalogNum": "VJ097",
+    "Artist": "DEMO Comp. Vol. 1",
+    "Title": "Compilation",
+    "Format": "Album"
+  },
+  {
+    "CatalogNum": "VJ098",
+    "Artist": "Catamaran",
+    "Release Date": "2020",
+    "Title": "Use Yourself / Always Run",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ099",
+    "Artist": "Catamaran",
+    "Release Date": "2020",
+    "Title": "Do Or Die / Pink Hair",
+    "Format": "Single"
+  },
+  {
+    "CatalogNum": "VJ100",
+    "Artist": "Catamaran",
+    "Release Date": "2020",
+    "Title": "Not Much / Difficult",
+    "Format": "Single"
+  }
+]
+}
