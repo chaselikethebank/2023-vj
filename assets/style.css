@@ -151,7 +151,7 @@ img {
 
 .wrapper {
   display: grid;
-  grid-template-columns: .8fr 1.4fr .8fr;
+  grid-template-columns: .8fr 1fr .8fr;
   height: 100vh;
 }
 
@@ -173,6 +173,7 @@ img {
     position: relative;
     overflow: hidden;
     display: none;
+    margin: auto;
   }
 }
 
