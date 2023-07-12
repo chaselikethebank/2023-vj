@@ -100,7 +100,7 @@ const data = {
       Artist: "Pastel",
       Title: "Bone-Weary EP",
       Format: "EP",
-      image: "assets/album-art/bone-weary.jpeg"
+      image: "assets/album-art/bone-weary.jpeg",
     },
     // {
     //   CatalogNum: "VJ010",
@@ -116,7 +116,7 @@ const data = {
       Artist: "Deep Cuts",
       Title: "Take Me Back",
       Format: "EP",
-      image: "assets/album-art/take-me-back.jpeg"
+      image: "assets/album-art/take-me-back.jpeg",
     },
     {
       CatalogNum: "VJ013",
@@ -124,7 +124,7 @@ const data = {
       Artist: "Love n Lerrone",
       Title: "Vybe Right",
       Format: "Single",
-      image: "assets/album-art/vybe-right.jpeg"
+      image: "assets/album-art/vybe-right.jpeg",
     },
     {
       CatalogNum: "VJ014",
@@ -132,7 +132,7 @@ const data = {
       Artist: "Love n Lerrone",
       Title: "U Don't Care",
       Format: "Single",
-      image: "assets/album-art/u-don't-care.jpeg"
+      image: "assets/album-art/u-don't-care.jpeg",
     },
     {
       CatalogNum: "VJ015",
@@ -140,7 +140,7 @@ const data = {
       Artist: "Love n Lerrone",
       Title: "BaBae",
       Format: "Single",
-      image: "assets/album-art/babae.jpeg"
+      image: "assets/album-art/babae.jpeg",
     },
     // {
     //   CatalogNum: "VJ016",
@@ -156,7 +156,7 @@ const data = {
       Artist: "Jerk",
       Title: "Socotra / War",
       Format: "Single - Digital",
-      image: "assets/album-art/socotra.jpeg"
+      image: "assets/album-art/socotra.jpeg",
     },
     {
       CatalogNum: "VJ019",
@@ -164,7 +164,7 @@ const data = {
       Artist: "VVELLS",
       Title: "Island of Me",
       Format: "Single - Digital",
-      image: "assets/album-art/ISLAND-OF-ME.jpg"
+      image: "assets/album-art/ISLAND-OF-ME.jpg",
     },
     {
       CatalogNum: "VJ020",
@@ -172,7 +172,7 @@ const data = {
       Artist: "VVELLS",
       Title: "Island of Me",
       Format: "EP - Lathe 10'",
-      image: "assets/album-art/VVELLS-COVER.jpg"
+      image: "assets/album-art/VVELLS-COVER.jpg",
     },
     {
       CatalogNum: "VJ021",
@@ -180,7 +180,7 @@ const data = {
       Artist: "Get A Life",
       Title: "What you deserve / 2 plus 2 equals 5",
       Format: "7''",
-      image: "assets/album-art/what-you-deserve-get-a-life.jpeg"
+      image: "assets/album-art/what-you-deserve-get-a-life.jpeg",
     },
     {
       CatalogNum: "VJ022",
@@ -188,7 +188,7 @@ const data = {
       Artist: "Flossed in Paradise",
       Title: "Hate",
       Format: "EP",
-      image: "assets/album-art/hate-ep.jpeg"
+      image: "assets/album-art/hate-ep.jpeg",
     },
     {
       CatalogNum: "VJ023",
@@ -196,7 +196,7 @@ const data = {
       Artist: "Deep Cuts",
       Title: "Endlessly Refreshing",
       Format: "Single",
-      image: "assets/album-art/endlessly-refreshing.jpg"
+      image: "assets/album-art/endlessly-refreshing.jpg",
     },
     {
       CatalogNum: "VJ025",
@@ -204,7 +204,7 @@ const data = {
       Artist: "VVELLS",
       Title: "Green Lights",
       Format: "Single - Digital",
-      image: "assets/album-art/green-lights.jpeg"
+      image: "assets/album-art/green-lights.jpeg",
     },
     {
       CatalogNum: "VJ026",
@@ -212,7 +212,7 @@ const data = {
       Artist: "Children of Pop",
       Title: "Poids / Etude en Cours",
       Format: "Single - 7'' Square",
-      image: "assets/album-art/poids-etude.jpeg"
+      image: "assets/album-art/poids-etude.jpeg",
     },
     {
       CatalogNum: "VJ028",
@@ -220,7 +220,7 @@ const data = {
       Artist: "Pastel",
       Title: "absent, just dust",
       Format: "EP",
-      image: "assets/album-art/absent.jpeg"
+      image: "assets/album-art/absent.jpeg",
     },
     {
       CatalogNum: "VJ029",
@@ -228,7 +228,7 @@ const data = {
       Artist: "Narrow Head",
       Title: "Bulma",
       Format: "Single",
-      image: "assets/album-art/narrow_head_bulma_web_large.jpg"
+      image: "assets/album-art/narrow_head_bulma_web_large.jpg",
     },
     {
       CatalogNum: "VJ031",
@@ -236,16 +236,16 @@ const data = {
       Artist: "Pastel",
       Title: "Close",
       Format: "Single",
-      image: "assets/album-art/close-pastel.jpeg"
+      image: "assets/album-art/close-pastel.jpeg",
     },
-    
+
     {
       CatalogNum: "VJ033",
       ReleaseDate: "2.23.2018",
       Artist: "Guess Genes",
       Title: "Lilly Vine",
       Format: "Single",
-      image: "assets/album-art/lily-vine.png"
+      image: "assets/album-art/lily-vine.png",
     },
     {
       CatalogNum: "VJ035",
@@ -253,7 +253,7 @@ const data = {
       Artist: "Guess Genes",
       Title: "Guess Genes",
       Format: "Tape - Full length",
-      image: "assets/album-art/Guess-Genes.png"
+      image: "assets/album-art/Guess-Genes.png",
     },
     {
       CatalogNum: "VJ036",
@@ -261,7 +261,7 @@ const data = {
       Artist: "Tee Lerrone",
       Title: "I Digress",
       Format: "Single",
-      image: "assets/album-art/I-Digress.jpg"
+      image: "assets/album-art/I-Digress.jpg",
     },
     {
       CatalogNum: "VJ037",
@@ -269,7 +269,7 @@ const data = {
       Artist: "Guess Genes",
       Title: "Bones on the Beach",
       Format: "Single",
-      image: "assets/album-art/bones-on-the-beach.jpg"
+      image: "assets/album-art/bones-on-the-beach.jpg",
     },
     {
       CatalogNum: "VJ038",
@@ -277,7 +277,7 @@ const data = {
       Artist: "Caicos",
       Title: "Promised Lands",
       Format: "EP",
-      image: "assets/album-art/promised-land.jpeg"
+      image: "assets/album-art/promised-land.jpeg",
     },
     {
       CatalogNum: "VJ039",
@@ -285,7 +285,7 @@ const data = {
       Artist: "Two Meters",
       Title: "Left Behind",
       Format: "Single",
-      image: "assets/album-art/two-meters-two-meters.jpeg"
+      image: "assets/album-art/two-meters-two-meters.jpeg",
     },
     {
       CatalogNum: "VJ040",
@@ -293,8 +293,7 @@ const data = {
       Artist: "Two Meters",
       Title: "Captive Audience",
       Format: "Single",
-      image: "assets/album-art/two-meters-two-meters.jpeg"
-
+      image: "assets/album-art/two-meters-two-meters.jpeg",
     },
     {
       CatalogNum: "VJ041",
@@ -302,8 +301,7 @@ const data = {
       Artist: "Two Meters",
       Title: "Two Meters",
       Format: "EP",
-      image: "assets/album-art/two-meters-two-meters.jpeg"
-
+      image: "assets/album-art/two-meters-two-meters.jpeg",
     },
     {
       CatalogNum: "VJ042",
@@ -311,7 +309,7 @@ const data = {
       Artist: "Get A Life",
       Title: "get a job",
       Format: "single",
-      image: "assets/album-art/get-a-job.jpeg"
+      image: "assets/album-art/get-a-job.jpeg",
     },
     {
       CatalogNum: "VJ043",
@@ -319,7 +317,7 @@ const data = {
       Artist: "MiddleChild",
       Title: "Daisy",
       Format: "EP",
-      image: "assets/album-art/middle-child-daisy.jpeg"
+      image: "assets/album-art/middle-child-daisy.jpeg",
     },
     {
       CatalogNum: "VJ00?",
@@ -327,7 +325,7 @@ const data = {
       Artist: "Josiah Gabriel",
       Title: "EP$",
       Format: "EP",
-      image: "assets/album-art/JG-$-ep.JPG"
+      image: "assets/album-art/JG-$-ep.JPG",
     },
     {
       CatalogNum: "VJ044",
@@ -335,8 +333,7 @@ const data = {
       Artist: "Standard Legal",
       Title: "Mercury",
       Format: "EP",
-      image: "assets/album-art/standar-legal.jpg"
-
+      image: "assets/album-art/standar-legal.jpg",
     },
     {
       CatalogNum: "VJ045",
@@ -344,7 +341,7 @@ const data = {
       Artist: "Aubrey Haddard",
       Title: "Blue Part",
       Format: "LP",
-      image: "assets/album-art/blue-part.jpeg"
+      image: "assets/album-art/blue-part.jpeg",
     },
     {
       CatalogNum: "VJ047",
@@ -352,8 +349,7 @@ const data = {
       Artist: "Tee Vee",
       Title: "Dreaming",
       Format: "Single",
-      image: "assets/album-art/tee-vee-dreaming.jpeg"
-
+      image: "assets/album-art/tee-vee-dreaming.jpeg",
     },
     {
       CatalogNum: "VJ049",
@@ -361,20 +357,10 @@ const data = {
       Artist: "BjORDAN",
       Title: "Bad Boy Sad Boy",
       Format: "Single",
-      image: "assets/album-art/bjordan.jpeg"
-
+      image: "assets/album-art/bjordan.jpeg",
     },
-   
-  
   ],
 };
-
-console.log(data);
-
-// data.releases.forEach((release) => {
-//   // Add the image property to each release object
-//   release.image = "https://f4.bcbits.com/img/0016413644_2.jpg";
-// });
 
 console.log(data);
 
@@ -383,37 +369,186 @@ const container = document.getElementById("card-container");
 for (let i = data.releases.length - 1; i >= 0; i--) {
   const release = data.releases[i];
 
-  console.log(release);
+  // console.log(release);
 
   const card = document.createElement("div");
+  const details = document.createElement("div");
   card.classList.add("release-card");
-
+  details.classList.add("details");
+ 
   const art = document.createElement("img");
   art.setAttribute("alt", "release art or placeholder logo");
   art.setAttribute("src", release.image || "assets/logo/VJ-logo-stamp.png");
-  art.style.width = "95%";
+  art.style.width = "100%";
+  art.style.marginTop = "15%";
 
-  const title = document.createElement("h2");
-  title.textContent = "Name: " + release.Title;
+  const title = document.createElement("div");
+  title.textContent = release.Title;
+  title.classList.add("card-detials");
 
-  const artist = document.createElement("h2");
-  artist.textContent = "Moniker: " + release.Artist;
+  const artist = document.createElement("div");
+  artist.textContent = release.Artist;
+  artist.classList.add("pop");
 
-  const catNum = document.createElement("h2");
-  catNum.textContent = "ID: #" + release.CatalogNum || "Unknown";
+  const catNum = document.createElement("div");
+  catNum.textContent = "#" + release.CatalogNum || "Unknown";
+  // catNum.classList.add("pop");
 
-  const format = document.createElement("h2");
-  format.textContent = "Format: " + release.Format;
+  const format = document.createElement("div");
+  format.textContent = release.Format;
+  format.classList.add("card-detials");
 
-  const date = document.createElement("h2");
-  date.textContent = "Era: " + release.ReleaseDate || "Unknown";
-
-  card.appendChild(art);
+  const date = document.createElement("div");
+  date.textContent = release.ReleaseDate || "Unknown";
+  
+  details.appendChild(art)
+  container.appendChild(art);
   card.appendChild(artist);
   card.appendChild(title);
-  card.appendChild(catNum);
   card.appendChild(format);
   card.appendChild(date);
+  card.appendChild(catNum);
+
 
   container.appendChild(card);
-};
+
+  
+}
+
+//emojis
+
+APIKEY = "24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIURLALLEMOJIS =
+  "https://emoji-api.com/emojis?access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIWAVE =
+  "https://emoji-api.com/emojis?search=wave&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APISTAG =
+  "https://emoji-api.com/emojis?search=deer&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIROSE =
+  "https://emoji-api.com/emojis?search=flower&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIMOUNTAIN =
+  "https://emoji-api.com/emojis?search=MOUNTAIN&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIPATH =
+  "https://emoji-api.com/emojis?search=dharma&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIVISION =
+  "https://emoji-api.com/emojis?search=telescope&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+
+const waveContainer = document.getElementById("wave-container");
+const stagContainer = document.getElementById("stag-container");
+const roseContainer = document.getElementById("rose-container");
+const mountainContainer = document.getElementById("mountain-container");
+const pathContainer = document.getElementById("path-container");
+const visionContainer = document.getElementById("vision-container");
+
+fetch(APIWAVE)
+  .then((response) => response.json())
+  .then((data) => {
+    const firstEmoji = data[0];
+    if (firstEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = firstEmoji.character;
+      waveContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+fetch(APISTAG)
+  .then((response) => response.json())
+  .then((data) => {
+    const firstEmoji = data[0];
+    if (firstEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = firstEmoji.character;
+      stagContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+fetch(APIROSE)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[1];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = correctEmoji.character;
+      roseContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+fetch(APIMOUNTAIN)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[19];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = correctEmoji.character;
+      mountainContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+fetch(APIPATH)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[0];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = correctEmoji.character;
+      pathContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+fetch(APIVISION)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[0];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card");
+      emojiCard.textContent = correctEmoji.character;
+      visionContainer.appendChild(emojiCard);
+    }
+    console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+// adding to stream count
+
+const secondsPerMinute = 60;
+const minutesPerHour = 60;
+const hoursPerDay = 24;
+const daysPerYear = 365;
+const years = 10;
+
+const totalSeconds = years * daysPerYear * hoursPerDay * minutesPerHour * secondsPerMinute;
+
+const totalStreams = 6632480;
+const streamsPerSecond = totalStreams / totalSeconds;
+
+let count = totalStreams;
+const streamCount = document.getElementById('stream-number');
+
+setInterval(() => {
+  count += streamsPerSecond / 100;
+  console.log(streamsPerSecond)
+  const newCount = count.toLocaleString();
+  streamCount.textContent = newCount;
+  // console.log(newCount);
+
+  // streamCount.classList.add('stream-blur-animation');
+  // setTimeout(() => {
+  //   streamCount.classList.remove('stream-blur-animation');
+  // }, 500);
+}, 10);

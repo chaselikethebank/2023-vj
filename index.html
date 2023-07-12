@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Caveat&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Ysabeau+Infant:ital,wght@1,1000&family=Ysabeau+Office:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
     <title>#veryjazzed HQ</title>
   </head>
   <body>
@@ -19,53 +22,47 @@
       </div>
     </header>
     <div class="wrapper">
-      <div></div>
+      <!-- to center the content -->
+      <div></div> 
+
       <main>
-        <div><h3>#veryjazzed</h3></div>
+        <div>
+          <h3>#veryjazzed </h3><break>
+          <!-- <h6>2013-2023</h6> -->
+        </div>
         
         <article>
-            <h2>
-              Not everything that can be counted counts and not everything that
-              counts can be counted
-            </h2>
-  
-            <img
-              class="emoji"
-              src="./assets/emoji/wave.png"
-              alt="emoji1"
-              width="100"
-              height="100"
-            />
+          <h2>
+            "Indie is a lifestyle, not a genre." <p></p>- Mattew Ellis
+          </h2>
+            <section id="wave-container"></section>
          
           <h2>
-            ∞ demos <br />6,632,480 streams<br />
+            ∞ demos <br/>
+
+            <section id="stream-count">
+              <span id="stream-number">6,632,480</span> streams
+            </section>
+            $43,835.43 income <br/>
+            $18,800.63 expenses <br/>
+            $25,034.80 revenue <br/>
+            $12,517.40 paid to artist <br/>
             152 releases<br />
-            53 artists<br />
+            64 artists<br />
             7 vinyls<br />
             5 syncs<br />
           </h2>
-          
-          <img
-            class="emoji"
-            src="./assets/emoji/deer.png"
-            alt="emoji1"
-            width="100"
-            height="100"
-          />
+          <section id="stag-container"></section>
+          <h2>
+            Not everything that can be counted counts and not everything that
+            counts can be counted
+          </h2>
           <button>
             <a href="https://veryjazzed.bandcamp.com/">LISTEN RN</a>
           </button>
-        </article>
-        
 
-        <article>
-          <img
-            class="emoji"
-            src="./assets/emoji/rose.png"
-            alt="emoji1"
-            width="100"
-            height="100"
-          />
+          <section id="rose-container"></section>
+         <h4>
           #veryjazzed is a boutique music rights management group. Gradient
           since 2013. Our roster is special, our artists are special, we are
           special. We understand who we are serving and to what end. We are
@@ -75,14 +72,9 @@
           leverage the finite against our unending ability to create new and
           inspired works. We pride ourselves in recognizing strengths and
           bridging blindspots. We are inspired makers.
-        
-          <img
-            class="emoji"
-            src="./assets/emoji/mountain.png"
-            alt="emoji1"
-            width="100"
-            height="100"
-          />
+        </h4>
+          <section id="mountain-container"></section>
+          <h4>
           We have three sides. We are public facing: promoting works, tours, and
           success stories. We are artist facing: managing the needs, visions,
           and admin for our artists. We are industry facing: building an
@@ -90,14 +82,9 @@
           integral companies in the space. We are always connecting with new
           people in each of these domains. Our model is to find people of agency
           and build difficult things with them.
-      
-          <img
-            class="emoji"
-            src="./assets/emoji/8FoldPath.png"
-            alt="emoji1"
-            width="100"
-            height="100"
-          />
+        </h4>
+          <section id="path-container"></section>
+        <h4>
           We believe producing great works is simple but detailed. The alignment
           of the creator, their story, the work, and the vehicle they choose to
           communicate it. If we can get organized with these elements, we feel
@@ -109,57 +96,54 @@
           be, and help facilitate the delta between the two. We are super
           flexible, always reverting to first principles when deciding what is
           our next and best step is.
-        
-          <img
-            class="emoji"
-            src="./assets/emoji/Vision.png"
-            alt="emoji1"
-            width="100"
-            height="100"
-          />
-          \ If you are a listener, a maker, or a builder and you resonate with
+        </h4>
+          <section id="vision-container"></section>
+          <h4>
+          If you are a listener, a maker, or a builder and you resonate with
           what we are working to achieve, we should know about each other. We
           would love to hear what you are excited about and how we might be a
           valuable resource. Reach out to us.
+        </h4>
         </article>
-        <div>what are you excited about?</div>
+        <div><h2>what are you excited about?</h2>
 
         <article #id="contact">
             
-          <form 
-          >
-            <label for="name">Name:</label>
-            <input type="text" id="name" required />
-            <br />
-            <label for="email">Email:</label>
-            <input type="email" id="email" required />
-            <br />
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-            <br />
-            <button type="submit" value="LMK" > LMK
-          </button>
+          <form action="https://formspree.io/f/mvojodjj" method="POST" >
+            <label> email: <input type="email" name="email"> </label>
+            <br><label> how we can help: <textarea name="message"></textarea> </label>
+            <button type="submit">LMK</button>
           </form>
+
         </article>
+        
+      </div>
+    
        
-        <article id="logo">
+        <!-- <article id="logo">
           <img
             src="./assets/logo/VJ-logo-stamp.png"
             alt="stamped logo on textured paper"
             width="400"
             height="300"
           />
-        </article>
+        </article> -->
        
 
         
-        
-        <article>
+        <div>
+          <h3 class="gradient-since"><span>© Gradient Since 2013: </span></h3>
+          
+          
+        </div>
+        <article> 
+          
       <section id="card-container"></section>
 
         </article>
         <div>
-          <h3 class="gradient-since"><span>© Gradient Since 2013 </span></h3>
+          <h3 class="gradient-since"><span>Copyright © 2023 </span></h3>
+          
           
         </div>
       </main>
