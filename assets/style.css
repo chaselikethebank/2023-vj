@@ -158,21 +158,23 @@ p {
   margin: 10px auto;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
+  
   
 }
 
 .release-card > div {
   padding: 4%;
-  padding-top: 8%;
+  padding-top: 18%;
   font-weight: 700;
   text-align: left;
   transition: transform 2s;
-  box-shadow: 7px 12px 0px rgba(0, 0, 0);
+  box-shadow: 8px 16px 0px rgba(0, 0, 0);
+  
 }
 
 .release-card:hover {
-  /* transform: translate(-20px, -10px); */
+  transform: translate(0px, 10px);
+
   transition: transform 2s;
 }
 
