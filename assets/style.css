@@ -2,6 +2,13 @@
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
 p {
   font-weight: 700;
 }
@@ -17,14 +24,19 @@ label {
 }
 
 button {
-  background-color: rgb(172, 255, 47);
+  background-color: rgb(57, 255, 20);
   width: 100%;
   height: 10vh;
-  border-style: inset;
+  border-style: solid;
   /* font-family: Arial, Helvetica, sans-serif; */
   font-size: xx-large;
   font-kerning: auto;
   color: black;
+  border-width: 4px;
+  border-color: black;
+  margin: 10px auto;
+  text-decoration: none;
+
 }
 
 button:hover {
@@ -48,9 +60,10 @@ article {
   font-size: medium;
   line-height: 1.5;
   margin: 0 auto;
-  /* overflow-x: auto; */
   min-height: min-content;
   height: fit-content;
+  box-sizing: border-box;
+
 }
 
 img {
@@ -83,17 +96,19 @@ main {
   background-color: white;
   padding: 1em;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); */
   grid-gap: 1em;
+  box-sizing: border-box;
+
 }
 
 main > div {
-  background-color: rgb(172, 255, 47);
-  padding: 0.5em;
+  background-color: rgb(57, 255, 20);
   font-size: 1.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+
 }
 
 .manifesto {
@@ -123,10 +138,6 @@ main > div {
   margin-bottom: 5vh;
 }
 
-#logo {
-  max-height: 95%;
-  max-width: 95%;
-}
 
 p {
   font-family: "Inter", sans-serif;
@@ -138,45 +149,37 @@ p {
   padding-top: 3%;
   box-sizing: border-box;
   display: grid;
-  /* gap: .4em; */
 }
 
 .release-card {
-  background-color: rgb(172, 255, 47);
-  /* border:4px solid black; */
+  background-color: rgb(57, 255, 20);
   color: rgb(0, 0, 0);
   margin-bottom: 1em;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%;
   box-sizing: border-box;
-  /* display: grid; */
-  /* grid-template-columns: repeat(1, 1fr) 1fr; */
-  /* grid-template-rows: repeat(1, 1fr) 1fr 1fr 1fr; */
+  position: relative;
+  
 }
 
 .release-card > div {
-  padding: 5%;
-  font-weight: 400;
-  border-bottom: 4px solid black;
-  border-left: 4px solid black;
+  padding: 4%;
+  padding-top: 8%;
+  font-weight: 700;
   text-align: left;
   transition: transform 2s;
-  box-shadow: 14px 5px 0px rgba(0, 0, 0);
-  
+  box-shadow: 7px 12px 0px rgba(0, 0, 0);
 }
 
 .release-card:hover {
-  transform: translate(140px);
+  /* transform: translate(-20px, -10px); */
   transition: transform 2s;
-
 }
 
-.details {
+/* .details {
   box-sizing: border-box;
   border-top: 3px solid black;
-  
-
-}
+} */
 
 .card-details {
   padding-top: 5%;
@@ -199,7 +202,6 @@ img {
   font-weight: 1000;
   text-align: center;
   font-style: bold;
-
 }
 
 /* #stream-number {
@@ -224,9 +226,7 @@ img {
 .emoji-card {
   min-width: 200px;
   min-height: 200px;
-  margin: 10px;
-  border-radius: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,10 +234,52 @@ img {
   font-size: 7rem;
 }
 
+#excited {
+  display: flex;
+  justify-content: center;
+    justify-content: end;
+  align-items: center;
+  margin: auto;
+  padding-top: 5%
+}
+
+.form-container {
+  margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+  font-weight: 700;
+  text-align: center;
+  font-style: bold;
+  padding: 1em;
+  margin: auto;
+}
+
+textarea {
+  font-family: "Inter", sans-serif;
+  padding: 1em;
+  margin: auto;
+}
+
 @media (max-width: 900px) {
   #logo {
     position: relative;
     left: 0%;
+  }
+
+  button {
+    width: 80%
+  }
+
+  #excited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1rem;
+    padding: 1em;
   }
 
   #release-card {
