@@ -359,6 +359,7 @@ const data = {
       Format: "Single",
       image: "assets/album-art/bjordan.jpeg",
     },
+    
   ],
 };
 

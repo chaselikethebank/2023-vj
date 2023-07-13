@@ -173,7 +173,7 @@ p {
 }
 
 .release-card:hover {
-  transform: translate(0px, 10px);
+  /* transform: translate(0px, 10px); */
 
   transition: transform 2s;
 }
