@@ -92,6 +92,11 @@ header {
   padding-top: 5vh;
 }
 
+#lmk {
+  width: 90%;
+  box-sizing: none;
+}
+
 main {
   background-color: white;
   padding: 1em;
