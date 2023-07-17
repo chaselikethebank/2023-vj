@@ -910,17 +910,329 @@ const data = {
     //   Format: "Music Video",
     //   image: "",
     // },
-    
-
+        {
+          CatalogNum: "VJ123",
+          ReleaseDate: "6.30.21",
+          Artist: "G. Brenner",
+          Title: "Brushfire",
+          Format: "Single",
+          image: "assets/album-art/brushfire.jpeg",
+        },
+        {
+          CatalogNum: "VJ124",
+          ReleaseDate: "6.30.21",
+          Artist: "G. Brenner",
+          Title: "Dee Dee",
+          Format: "Single",
+          image: "assets/album-art/brushfire.jpeg",
+        },
+        {
+          CatalogNum: "VJ125",
+          ReleaseDate: "6.30.21",
+          Artist: "G. Brenner",
+          Title: "Mudslide",
+          Format: "Single",
+          image: "assets/album-art/brushfire.jpeg",
+        },
+        {
+          CatalogNum: "VJ130",
+          ReleaseDate: "4.02.2021",
+          Artist: "Why Dogs Why",
+          Title: "Dress Well Enough",
+          Format: "EP",
+          image: "assets/album-art/dress-well-enough.webp",
+        },
+        {
+          CatalogNum: "VJ126",
+          ReleaseDate: "2.12.2021",
+          Artist: "Why Dogs Why",
+          Title: "TOC",
+          Format: "Single",
+          image: "assets/album-art/TOC.jpeg",
+        },
+        {
+          CatalogNum: "VJ127",
+          ReleaseDate: "3.12.2021",
+          Artist: "Why Dogs Why",
+          Title: "Dress Well Enough",
+          Format: "Single",
+          image: "assets/album-art/dress-well-enough.webp",
+        },
+        {
+          CatalogNum: "VJ128",
+          ReleaseDate: "4.02.2021",
+          Artist: "Why Dogs Why",
+          Title: "Tying Knots",
+          Format: "Single",
+          image: "assets/album-art/dress-well-enough.webp",
+        },
+        {
+          CatalogNum: "VJ131",
+          ReleaseDate: "2.21.2021",
+          Artist: "Daddy's Beemer",
+          Title: "Knife",
+          Format: "Single",
+          image: "assets/album-art/Knife+Final+Artwork.jpg",
+        },
+        {
+          CatalogNum: "VJ132",
+          ReleaseDate: "5.07.2021",
+          Artist: "Felt Out",
+          Title: "Superfluid B-Sides",
+          Format: "EP",
+          image: "assets/album-art/superfluid-b-sides.jpeg",
+        },
+        {
+          CatalogNum: "VJ129",
+          ReleaseDate: "",
+          Artist: "Science Fiction Review",
+          Title: "Jimbo",
+          Format: "Single",
+          image: "assets/album-art/jimbo.jpeg",
+        },
+        {
+          CatalogNum: "VJ134",
+          ReleaseDate: "",
+          Artist: "Mantra Love",
+          Title: "Blind Spot",
+          Format: "Single",
+          image: "assets/album-art/blindspot-fullres.jpg",
+        },
+        {
+          CatalogNum: "VJ135",
+          ReleaseDate: "3.04.2022",
+          Artist: "Kevin Farge",
+          Title: "Low Tide",
+          Format: "Album",
+          image: "assets/album-art/low-tide.jpeg",
+        },
+        {
+          CatalogNum: "VJ136",
+          ReleaseDate: "4.22.2022",
+          Artist: "Kevin Farge",
+          Title: "Halcyon Days",
+          Format: "Album",
+          image: "assets/album-art/halcyon-days.jpeg",
+        },
+        {
+          CatalogNum: "VJ137",
+          ReleaseDate: "3.28.2022",
+          Artist: "Van Chamberlain",
+          Title: "In The Sun",
+          Format: "Album",
+          image: "assets/album-art/in-the-sun.jpeg",
+        },
+        {
+          CatalogNum: "VJ138",
+          ReleaseDate: "1.31.2022",
+          Artist: "Van Chamberlain",
+          Title: "A.G.T.",
+          Format: "Single",
+          image: "assets/album-art/in-the-sun.jpeg",
+        },
+        {
+          CatalogNum: "VJ139",
+          ReleaseDate: "2.28.2022",
+          Artist: "Van Chamberlain",
+          Title: "Heavy Cloud",
+          Format: "Single",
+          image: "assets/album-art/in-the-sun.jpeg",
+        },
+        {
+          CatalogNum: "VJ140",
+          ReleaseDate: "2.08.2022",
+          Artist: "WAVE Comp. Vol. 3",
+          Title: "Various Artists",
+          Format: "Album",
+          image: "assets/album-art/wave-comp.jpeg",
+        },
+        {
+          CatalogNum: "VJ141",
+          ReleaseDate: "4.15.2022",
+          Artist: "Sillyboy's Ghost Relatives feat Rako",
+          Title: "Raw",
+          Format: "single",
+          image: "assets/album-art/skel.jpeg",
+        },
+        {
+          CatalogNum: "VJ142",
+          ReleaseDate: "5.13.2022",
+          Artist: "Sillyboy's Ghost Relatives feat Rako",
+          Title: "Apes",
+          Format: "single",
+          image: "assets/album-art/apes.jpeg",
+        },
+        {
+          CatalogNum: "VJ143",
+          ReleaseDate: "6.3.2022",
+          Artist: "Sillyboy's Ghost Relatives feat Rako",
+          Title: "Stone Town",
+          Format: "LP",
+          image: "assets/album-art/stone-town.jpeg",
+        },
+        {
+          CatalogNum: "VJ144",
+          ReleaseDate: "6.27.2022",
+          Artist: "Franklin Gothic",
+          Title: "Mr. Hangman",
+          Format: "Single",
+          image: "assets/album-art/into-the-light.jpeg",
+        },
+        {
+          CatalogNum: "VJ145",
+          ReleaseDate: "7.18.2022",
+          Artist: "Franklin Gothic",
+          Title: "Slow Down Bang Bang",
+          Format: "Single",
+          image: "assets/album-art/into-the-light.jpeg",
+        },
+        {
+          CatalogNum: "VJ146",
+          ReleaseDate: "8.8.2022",
+          Artist: "Franklin Gothic",
+          Title: "Spark",
+          Format: "Single",
+          image: "assets/album-art/into-the-light.jpeg",
+        },
+        {
+          CatalogNum: "VJ147",
+          ReleaseDate: "8.19.2022",
+          Artist: "Franklin Gothic",
+          Title: "Into the Light",
+          Format: "Album",
+          image: "assets/album-art/cass-into-the-light.jpeg",
+        },
+        {
+          CatalogNum: "VJ148",
+          ReleaseDate: "8.10.2022",
+          Artist: "Codee Ranch",
+          Title: "Codee Ranch Theme (Grandpa Codee's Ghost)",
+          Format: "Single",
+          image: "",
+        },
+        // {
+        //   CatalogNum: "VJ149",
+        //   ReleaseDate: "2.22.23",
+        //   Artist: "Evening Something",
+        //   Title: "Comes up cold",
+        //   Format: "Single",
+        //   image: "",
+        // },
+        {
+          CatalogNum: "VJ150",
+          ReleaseDate: "3.24.2023",
+          Artist: "Varial Heel",
+          Title: "Ace of Tre",
+          Format: "Album",
+          image: "assets/album-art/VarialHeelFinal.png",
+        },
+        // {
+        //   CatalogNum: "VJ151",
+        //   ReleaseDate: "2.08.2023",
+        //   Artist: "",
+        //   Title: "",
+        //   Format: "",
+        //   image: "",
+        // },
+        {
+          CatalogNum: "VJ152",
+          ReleaseDate: "2.08.2023",
+          Artist: "Pacing",
+          Title: "Aliens",
+          Format: "Single",
+          image: "assets/album-art/aliens.jpeg",
+        },
+        {
+          CatalogNum: "VJ153",
+          ReleaseDate: "3.08.2023",
+          Artist: "Science Fiction Review",
+          Title: "Amputated Man",
+          Format: "Single",
+          image: "assets/album-art/amputated-man.jpeg",
+        },
+        {
+          CatalogNum: "VJ154",
+          ReleaseDate: "2.22.2023",
+          Artist: "Honin",
+          Title: "Bitter Cup",
+          Format: "EP",
+          image: "assets/album-art/Bitter-Cup-Cover.jpg",
+        },
+        {
+          CatalogNum: "VJ155",
+          ReleaseDate: "6.14.2023",
+          Artist: "Caicos",
+          Title: "A Spade A Spade",
+          Format: "Single",
+          image: "assets/album-art/ascenion.jpeg",
+        },
+        {
+          CatalogNum: "VJ156",
+          ReleaseDate: "7.12.2023",
+          Artist: "Caicos",
+          Title: "Bruise Or Blush",
+          Format: "Single",
+          image: "assets/album-art/ascenion.jpeg",
+        },
+        {
+          CatalogNum: "VJ157",
+          ReleaseDate: "8.9.2023",
+          Artist: "Caicos",
+          Title: "Subsequent Footprint (feat. lojii)",
+          Format: "Single",
+          image: "assets/album-art/ascenion.jpeg",
+        },
+        {
+          CatalogNum: "VJ158",
+          ReleaseDate: "9.15.2023",
+          Artist: "Caicos",
+          Title: "Ascension Intention",
+          Format: "Album",
+          image: "assets/album-art/ascenion.jpeg",
+        },
+        {
+          CatalogNum: "VJ159",
+          ReleaseDate: "10.11.2023",
+          Artist: "Caicos",
+          Title: "Subsequent Footprint (Clay Wilson Remix)",
+          Format: "Remix",
+          image: "assets/album-art/ascenion.jpeg",
+        },
+       
+     
     
   ],
 };
 
-console.log(data);
+// console.log(data);
 
 const container = document.getElementById("card-container");
 
 for (let i = data.releases.length - 1; i >= 0; i--) {
+  var colors = [
+    '#ff00ff', // Magenta
+  '#00ffff', // Cyan
+  '#ff00a8', // Fuchsia
+  '#00ff00', // Green
+  '#ff8000', // Orange
+  '#ffff00', // Yellow
+  '#00ff80', // Lime
+  '#ff0080', // Pink
+  '#80ff00', // Chartreuse
+  '#00ffbf', // Spring Green
+  '#ff0088', // Neon Pink
+  '#00ffbf', // Electric Blue
+  '#ff0000', // Neon Red
+  '#00ffaa', // Electric Green
+  '#ff8000', // Neon Orange
+  '#ffbf00', // Neon Yellow
+  '#00ffff', // Aqua
+  '#ff00ff', // Electric Purple
+  '#ffff33', // Neon Yellow-green
+  '#00aaff'  // Neon Blue
+  ];
+ 
+
   const release = data.releases[i];
 
   // console.log(release);
@@ -954,6 +1266,20 @@ for (let i = data.releases.length - 1; i >= 0; i--) {
 
   const date = document.createElement("div");
   date.textContent = release.ReleaseDate || "Unknown";
+
+  function randomCardColor() {
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+   card.style.backgroundColor = randomColor;
+  //  console.log(randomColor);
+  }
+  var randomInterval = getRandomInterval(5, 150);
+  function getRandomInterval(min, max) {
+    return Math.random() * (max - min) + min;
+  } 
+  setInterval(randomCardColor, randomInterval);
+
+
+  
   
   details.appendChild(art)
   container.appendChild(art);
@@ -962,10 +1288,7 @@ for (let i = data.releases.length - 1; i >= 0; i--) {
   card.appendChild(format);
   card.appendChild(date);
   card.appendChild(catNum);
-
-
   container.appendChild(card);
-
   
 }
 
@@ -1074,7 +1397,7 @@ fetch(APIVISION)
       emojiCard.textContent = correctEmoji.character;
       visionContainer.appendChild(emojiCard);
     }
-    console.log(data);
+    // console.log(data);
   })
   .catch((error) => console.log(error));
 
@@ -1096,7 +1419,7 @@ const streamCount = document.getElementById('stream-number');
 
 setInterval(() => {
   count += streamsPerSecond / 100;
-  console.log(streamsPerSecond)
+  // console.log(streamsPerSecond)
   const newCount = count.toLocaleString();
   streamCount.textContent = newCount;
   // console.log(newCount);
@@ -1106,3 +1429,10 @@ setInterval(() => {
   //   streamCount.classList.remove('stream-blur-animation');
   // }, 500);
 }, 10);
+
+
+// change background color
+
+window.onload = function() {
+ 
+};
