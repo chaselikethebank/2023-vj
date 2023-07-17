@@ -18,7 +18,7 @@ textarea,
 label {
   margin: 0;
   text-align: center;
-  font-size: 85.5%;
+  font-size: 65.5%;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
@@ -29,7 +29,7 @@ button {
   height: 10vh;
   border-style: solid;
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-size: xx-large;
+  font-size: x-large;
   font-kerning: auto;
   color: black;
   border-width: 4px;
@@ -50,7 +50,7 @@ button:focus {
 
 aside {
   background-color: whitesmoke;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,7 @@ header {
   color: whitesmoke;
   height: 100vh;
   width: 100vw;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-top: 5vh;
 }
 
@@ -108,7 +108,7 @@ main {
 
 main > div {
   background-color: rgb(57, 255, 20);
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,6 +148,7 @@ p {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
+  /* padding:20em */
 }
 
 #card-container {
@@ -163,6 +164,7 @@ p {
   margin: 10px auto;
   width: 100%;
   box-sizing: border-box;
+  /* transition: background-color 1s ease-in-out; */
   
   
 }
@@ -205,7 +207,7 @@ img {
 }
 
 .pop {
-  font-size: 1.9rem;
+  font-size: 1rem;
   font-weight: 1000;
   text-align: center;
   font-style: bold;
@@ -319,7 +321,7 @@ footer {
   background-color: rgb(172, 255, 47);
   color: black;
   height: 10vh;
-  font-size: 1.75rem;
+  font-size: 1rem;
   padding: 3vh;
   border-top: 10px solid whitesmoke;
   border-bottom: 10px solid whitesmoke;
