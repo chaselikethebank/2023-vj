@@ -1292,7 +1292,7 @@ for (let i = data.releases.length - 1; i >= 0; i--) {
   
 }
 
-//emojis
+//emojis https://emoji-api.com/
 
 APIKEY = "24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
 APIURLALLEMOJIS =
@@ -1309,6 +1309,15 @@ APIPATH =
   "https://emoji-api.com/emojis?search=dharma&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
 APIVISION =
   "https://emoji-api.com/emojis?search=telescope&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APISUN = 
+"https://emoji-api.com/emojis?search=sun&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APILADDER = 
+"https://emoji-api.com/emojis?search=ladder&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+APIMOON = 
+"https://emoji-api.com/emojis?search=moon&access_key=24998c4e9075abdb3923a34c0e5d0dd31c7fcb50";
+  
+  
+  
 
 const waveContainer = document.getElementById("wave-container");
 const stagContainer = document.getElementById("stag-container");
@@ -1316,6 +1325,12 @@ const roseContainer = document.getElementById("rose-container");
 const mountainContainer = document.getElementById("mountain-container");
 const pathContainer = document.getElementById("path-container");
 const visionContainer = document.getElementById("vision-container");
+const sunContainer = document.getElementById("sun-container");
+const ladderContainer = document.getElementById("ladder-container");
+const moonContainer = document.getElementById("moon-container");
+
+
+
 
 fetch(APIWAVE)
   .then((response) => response.json())
@@ -1400,6 +1415,49 @@ fetch(APIVISION)
     // console.log(data);
   })
   .catch((error) => console.log(error));
+
+  fetch(APISUN)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[5];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card-sm");
+      emojiCard.textContent = correctEmoji.character;
+      sunContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+  fetch(APILADDER)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[0];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card-sm");
+      emojiCard.textContent = correctEmoji.character;
+      ladderContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
+  fetch(APIMOON)
+  .then((response) => response.json())
+  .then((data) => {
+    const correctEmoji = data[1];
+    if (correctEmoji) {
+      const emojiCard = document.createElement("div");
+      emojiCard.classList.add("emoji-card-sm");
+      emojiCard.textContent = correctEmoji.character;
+      moonContainer.appendChild(emojiCard);
+    }
+    // console.log(data);
+  })
+  .catch((error) => console.log(error));
+
 
 // adding to stream count
 
