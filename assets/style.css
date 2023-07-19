@@ -2,6 +2,11 @@
   font-family: "Inter", sans-serif;
 }
 
+#selector {
+  color: white;
+  text-shadow: 1px 2px 1px  rgb(0, 0, 0); 
+}
+
 a {
   text-decoration: none;
 }
@@ -83,6 +88,14 @@ img {
   align-items: center;
   margin: auto;
 }
+
+#first-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 header {
   color: whitesmoke;
@@ -242,6 +255,18 @@ img {
   margin: auto;
   font-size: 7rem;
 }
+.emoji-card-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: auto;
+  font-size: 7rem;
+}
+
 
 #excited {
   display: flex;
