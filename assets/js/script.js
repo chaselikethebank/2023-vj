@@ -1209,79 +1209,32 @@ const data = {
 const container = document.getElementById("card-container");
 
 for (let i = data.releases.length - 1; i >= 0; i--) {
-  var colors = [
-    '#ff00ff', // Magenta
-  '#00ffff', // Cyan
-  '#ff00a8', // Fuchsia
-  '#00ff00', // Green
-  '#ff8000', // Orange
-  '#ffff00', // Yellow
-  '#00ff80', // Lime
-  '#ff0080', // Pink
-  '#80ff00', // Chartreuse
-  '#00ffbf', // Spring Green
-  '#ff0088', // Neon Pink
-  '#00ffbf', // Electric Blue
-  '#ff0000', // Neon Red
-  '#00ffaa', // Electric Green
-  '#ff8000', // Neon Orange
-  '#ffbf00', // Neon Yellow
-  '#00ffff', // Aqua
-  '#ff00ff', // Electric Purple
-  '#ffff33', // Neon Yellow-green
-  '#00aaff'  // Neon Blue
-  ];
- 
-
   const release = data.releases[i];
 
   // console.log(release);
 
   const card = document.createElement("div");
-  const details = document.createElement("div");
-  card.classList.add("release-card");
-  details.classList.add("details");
- 
+
   const art = document.createElement("img");
   art.setAttribute("alt", "release art or placeholder logo");
   art.setAttribute("src", release.image || "assets/logo/VJ-logo-stamp.png");
   art.style.width = "100%";
-  art.style.marginTop = "15%";
-
-  const title = document.createElement("div");
-  title.textContent = release.Title;
-  title.classList.add("card-detials");
 
   const artist = document.createElement("div");
   artist.textContent = release.Artist;
-  artist.classList.add("pop");
 
-  const catNum = document.createElement("div");
-  catNum.textContent = "#" + release.CatalogNum || "Unknown";
-  // catNum.classList.add("pop");
+  const title = document.createElement("div");
+  title.textContent = release.Title;
 
   const format = document.createElement("div");
   format.textContent = release.Format;
-  format.classList.add("card-detials");
 
   const date = document.createElement("div");
   date.textContent = release.ReleaseDate || "Unknown";
 
-  function randomCardColor() {
-    var randomColor = colors[Math.floor(Math.random() * colors.length)];
-   card.style.backgroundColor = randomColor;
-  //  console.log(randomColor);
-  }
-  var randomInterval = getRandomInterval(5, 150);
-  function getRandomInterval(min, max) {
-    return Math.random() * (max - min) + min;
-  } 
-  setInterval(randomCardColor, randomInterval);
+  const catNum = document.createElement("div");
+  catNum.textContent = "#" + release.CatalogNum || "Unknown";
 
-
-  
-  
-  details.appendChild(art)
   container.appendChild(art);
   card.appendChild(artist);
   card.appendChild(title);
@@ -1461,36 +1414,12 @@ fetch(APIVISION)
 
 // adding to stream count
 
-const secondsPerMinute = 60;
-const minutesPerHour = 60;
-const hoursPerDay = 24;
-const daysPerYear = 365;
-const years = 10;
-
-const totalSeconds = years * daysPerYear * hoursPerDay * minutesPerHour * secondsPerMinute;
-
 const totalStreams = 6632480;
-const streamsPerSecond = totalStreams / totalSeconds;
-
+const streamsPerSecond = totalStreams / (10 * 365 * 24 * 60 * 60);
 let count = totalStreams;
 const streamCount = document.getElementById('stream-number');
 
 setInterval(() => {
   count += streamsPerSecond / 100;
-  // console.log(streamsPerSecond)
-  const newCount = count.toLocaleString();
-  streamCount.textContent = newCount;
-  // console.log(newCount);
-
-  // streamCount.classList.add('stream-blur-animation');
-  // setTimeout(() => {
-  //   streamCount.classList.remove('stream-blur-animation');
-  // }, 500);
+  streamCount.textContent = count.toLocaleString();
 }, 10);
-
-
-// change background color
-
-window.onload = function() {
- 
-};
